@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+:root{
+    --black:#141414;
+    --white:#fff;
+    --headercolor:rgb(67, 187, 141);
+}
+
+.header {
+  width: 100%;
+  /* height: 120px; */
+  min-height: 5vh;
+  padding: 20px 15px 15px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items:top;
+  /* background: var(--headercolor);  */
+  background:url("Photos/Help0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Logo-pic {
+    width: 100px;
+    -minheight: 50px;
+  }
+
+  .navbar-list {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    padding-right: 20px;
+  }
+
+  .navbar-link:link,
+.navbar-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  color:var(--black);
+  transition: all 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: var(--white);
+}
+
+.footer{
+    width: 100%;
+    min-height: 60px;
+    background: var(--black);
+    position: relative;
+    bottom: 0;
+}
+
+.footer h1{
+    color: #fff;
+}
+
+.Box{
+  width: 100%;
+  height: 600px;
+  background: url("Photos/Help1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
